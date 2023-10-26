@@ -25,6 +25,10 @@
     font-style: normal;
     font-weight: 400;
 }
+.contaner{
+    margin-left: auto;
+    margin-right: auto;
+}
 
 html{
     font-family: 'Open Sans' sans-serif;
@@ -93,12 +97,12 @@ body{
     border-radius: 50px;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    border: none;
 }
 .intro_log{
     display: flex;
     justify-content: space-between;
-    width: 1146px;
-    gap: 97px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 247px;
@@ -122,7 +126,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 300px;
-    width: 1440px;
+    width: 1203px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
@@ -157,6 +161,75 @@ body{
 .item_card{
     background: #FFF;
     box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
-    width: 370px;
-    height: 291px;
+}
+.intro-services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 1440px;
+} 
+.services-item-big{
+    margin-top: auto;
+    grid-column: span 3;
+    height: min-content;
+    margin-bottom: 55px;
+}
+.services-item{
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+.services-title{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.services-text{
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    width: 682px;
+    height: 48px;
+    text-align: center;
+}
+.services-text-content{
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    width: 310px;
+    height: 63px;
+    margin-left: 40px;
+}
+.intro_title_services{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-weight: 400;
+    width: 208px;
+    height: 30px;
+    margin-left: 90px;
+}
+.intro_button_services{
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 150%; /* 19.5px */
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    margin-left: 110px;
+    margin-top: 39px;
+    border: none;
 }
