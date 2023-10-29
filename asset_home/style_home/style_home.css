@@ -161,17 +161,19 @@ body{
 .item_card{
     background: #FFF;
     box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    gap: 30px;
+    height: 549px;
+    width: 370px;
 }
 .intro-services{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    width: 1440px;
+    width: 1180px;/* 370 * 3 + 60 */
+    height: 919px;
+    padding: 30px;
 } 
 .services-item-big{
-    margin-top: auto;
-    grid-column: span 3;
-    height: min-content;
+    margin-top: 192px; /* Это чтобы не было вплотную с прошлым заданием */
     margin-bottom: 55px;
 }
 .services-item{
@@ -206,7 +208,7 @@ body{
     line-height: 150%; /* 22.5px */
     width: 310px;
     height: 63px;
-    margin-left: 40px;
+    margin-top: 22px;
 }
 .intro_title_services{
     color: #000;
@@ -215,7 +217,6 @@ body{
     font-weight: 400;
     width: 208px;
     height: 30px;
-    margin-left: 90px;
 }
 .intro_button_services{
     color: #FFF;
@@ -229,7 +230,11 @@ body{
     border-radius: 50px;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
-    margin-left: 110px;
     margin-top: 39px;
     border: none;
+    margin-left: 100px;
+    margin-right: 120px;
+}
+.services-item{
+    padding: 30px;
 }
